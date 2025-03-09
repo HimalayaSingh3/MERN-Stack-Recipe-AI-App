@@ -41,31 +41,37 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link
-                  to="/ask"
-                  className="block py-2 px-4 hover:text-blue-700"
-                >
-                  <span className="flex">Ask <BotMessageSquare /></span>
+                <Link to="/ask" className="block py-2 px-4 hover:text-blue-700">
+                  <span className="flex">
+                    Ask <BotMessageSquare />
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link to="/profile">
-                  <Button>Profile</Button>
+                  <Button className="cursor-pointer">Profile</Button>
                 </Link>
               </li>
             </>
           ) : (
             <li>
               <div className="flex gap-2">
-                <Button variant="outline" className="text-black cursor-pointer">
-                  Login
-                </Button>
-                <Button
-                  variant="destructive"
-                  className="cursor-pointer hover:bg-red-700"
-                >
-                  Register
-                </Button>
+                <Link to="/login">
+                  <Button
+                    variant="outline"
+                    className="text-black cursor-pointer"
+                  >
+                    Login
+                  </Button>
+                </Link>
+                <Link to="/register">
+                  <Button
+                    variant="destructive"
+                    className="cursor-pointer hover:bg-red-700"
+                  >
+                    Register
+                  </Button>
+                </Link>
               </div>
             </li>
           )}

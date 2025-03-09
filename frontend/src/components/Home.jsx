@@ -20,9 +20,9 @@ const Home = () => {
             Cooking Made Easy.
           </h1>
           <p className="text-2xl">
-            Say goodbye to long and frustrating food blogs and recipe videos.
-            Access our recipe cards to prepare any dish in minutes and also ask
-            the AI assistant.
+            Say goodbye to long, frustrating food blogs and recipe videos! Get
+            instant access to our recipe cards and prepare any dish in minutes.
+            Need extra help? Just ask our AI assistant!
           </p>
           <Link
             to="/"
