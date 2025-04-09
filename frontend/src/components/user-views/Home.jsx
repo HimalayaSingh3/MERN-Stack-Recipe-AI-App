@@ -1,10 +1,10 @@
 import React from "react";
-import dish from "../assets/dish.png";
+import dish from "../../assets/dish.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="bg-blue-100 min-h-screen flex justify-center items-center p-6">
+    <div className="min-h-screen flex justify-center items-center p-6 text-white">
       <div className="flex flex-col md:flex-row items-center max-w-screen-lg w-full gap-8">
         {/* Right Section */}
         <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center mr-8 w-full">
@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <Link
             to="/"
-            className="mt-5 w-full sm:w-96 text-lg bg-blue-500 rounded-lg p-2 cursor-pointer text-white text-center hover:bg-blue-600"
+            className="mt-5 w-full sm:w-96 text-lg bg-green-500 rounded-lg p-2 cursor-pointer text-white text-center hover:bg-green-600"
           >
             Browse Dish
           </Link>
